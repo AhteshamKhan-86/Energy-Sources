@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "framer-motion": "^13.4.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
