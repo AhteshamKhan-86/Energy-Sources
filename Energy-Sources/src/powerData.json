@@ -1,0 +1,109 @@
+{
+  "HYDRO": {
+    "title": " MAJOR HYDROELECTRIC POWER STATIONS & BASINS",
+    "totalCapacity": "2,321.90 MW",
+    "plants": [
+      { "name": "Kundah Hydroelectric Power House I", "capacity": "60 MW", "details": "Bhavani Basin | The Nilgiris | TANGEDCO" },
+      { "name": "Kundah Hydroelectric Power House II", "capacity": "175 MW", "details": "Bhavani Basin | The Nilgiris | TANGEDCO" },
+      { "name": "Kundah Hydroelectric Power House III", "capacity": "180 MW", "details": "Bhavani Basin | The Nilgiris | TANGEDCO" },
+      { "name": "Kundah Hydroelectric Power House IV", "capacity": "100 MW", "details": "Bhavani Basin | The Nilgiris | TANGEDCO" },
+      { "name": "Kundah Hydroelectric Power House V", "capacity": "40 MW", "details": "Bhavani Basin | The Nilgiris | TANGEDCO" },
+      { "name": "Kundah Hydroelectric Power House VI", "capacity": "30 MW", "details": "Bhavani Basin | The Nilgiris | TANGEDCO" },
+      { "name": "Pykara Power House", "capacity": "59.20 MW", "details": "Pykara Basin | The Nilgiris | TANGEDCO" },
+      { "name": "Pykara Ultimate Stage Hydro Project (PUSHEP)", "capacity": "150 MW", "details": "Pykara Basin | The Nilgiris | TANGEDCO" },
+      { "name": "Mettur Dam Power House", "capacity": "50 MW", "details": "Cauvery Basin | Salem | TANGEDCO" },
+      { "name": "Mettur Tunnel Power House", "capacity": "200 MW", "details": "Cauvery Basin | Salem | TANGEDCO" },
+      { "name": "Lower Bhavani Power House", "capacity": "32 MW", "details": "Bhavani Basin | Erode | TANGEDCO" },
+      { "name": "Kadamparai Pumped Storage Power House", "capacity": "400 MW", "details": "Aliyar Basin | Coimbatore | Pumped Storage" },
+      { "name": "Aliyar Power House", "capacity": "60 MW", "details": "Aliyar Basin | Coimbatore | TANGEDCO" },
+      { "name": "Sholayar Power House I", "capacity": "70 MW", "details": "Parambikulam Basin | Coimbatore | TANGEDCO" },
+      { "name": "Sholayar Power House II", "capacity": "25 MW", "details": "Parambikulam Basin | Coimbatore | TANGEDCO" },
+      { "name": "Sarkarpathy Power House", "capacity": "30 MW", "details": "Parambikulam Basin | Coimbatore | TANGEDCO" },
+      { "name": "Periyar Power House", "capacity": "140 MW", "details": "Periyar Basin | Theni | TANGEDCO" },
+      { "name": "Suruliyar Power House", "capacity": "35 MW", "details": "Suruliyar Basin | Theni | TANGEDCO" },
+      { "name": "Vaigai Micro Hydro Station", "capacity": "6 MW", "details": "Vaigai Basin | Theni | Small Hydro" },
+      { "name": "Papanasam Power House", "capacity": "32 MW", "details": "Tambraparani Basin | Tirunelveli | TANGEDCO" },
+      { "name": "Servalar Power House", "capacity": "20 MW", "details": "Tambraparani Basin | Tirunelveli | TANGEDCO" },
+      { "name": "Kodayar Power House I", "capacity": "60 MW", "details": "Kodayar Basin | Kanyakumari | TANGEDCO" },
+      { "name": "Kodayar Power House II", "capacity": "40 MW", "details": "Kodayar Basin | Kanyakumari | TANGEDCO" },
+      { "name": "Bhavani Barrage I (Moolathurai)", "capacity": "10 MW", "details": "Bhavani Basin | Coimbatore | Mini Hydro" },
+      { "name": "Bhavani Barrage II (Serumugai)", "capacity": "10 MW", "details": "Bhavani Basin | Coimbatore | Mini Hydro" },
+      { "name": "Bhavani Kattalai Barrage I (Samayasangili)", "capacity": "30 MW", "details": "Cauvery Basin | Namakkal | Small Hydro" },
+      { "name": "Bhavani Kattalai Barrage II (Vendipalayam)", "capacity": "30 MW", "details": "Cauvery Basin | Erode | Small Hydro" },
+      { "name": "Bhavani Kattalai Barrage III (Solasiramani)", "capacity": "30 MW", "details": "Cauvery Basin | Namakkal | Small Hydro" },
+      { "name": "RBC Lower Bhavani Micro Hydro", "capacity": "8 MW", "details": "Bhavani Basin | Erode | Micro Hydro" },
+      { "name": "Perunchani Small Hydro Project", "capacity": "1.3 MW", "details": "Kodayar Basin | Kanyakumari | Small Hydro" },
+      { "name": "Amaravathi Hydroelectric Project", "capacity": "4 MW", "details": "Amaravathi Basin | Tiruppur | Small Hydro" },
+      { "name": "Thirumurthy Micro Hydro Project", "capacity": "1.95 MW", "details": "PAP Basin | Tiruppur | Micro Hydro" },
+      { "name": "Sathanur Dam Micro Hydro Project", "capacity": "7.5 MW", "details": "Pennaiyar Basin | Tiruvannamalai | Small Hydro" },
+      { "name": "Mukurthi Micro Hydro Project", "capacity": "0.70 MW", "details": "Pykara Basin | The Nilgiris | Micro Hydro" },
+      { "name": "Private / IPP Small Hydro Plants", "capacity": "121.25 MW", "details": "Statewide | Distributed IPP Hydro" }
+    ]
+  },
+  "THERMAL": {
+    "title": " COAL & LIGNITE THERMAL POWER PLANTS",
+    "totalCapacity": "13,450 MW",
+    "plants": [
+      { "name": "Mettur Thermal Power Station (MTPS Stage I & II)", "capacity": "840 MW", "details": "Units: 4x210 MW | Salem | TANGEDCO (State)" },
+      { "name": "Mettur Thermal Power Station (MTPS Stage III)", "capacity": "600 MW", "details": "Units: 1x600 MW | Salem | TANGEDCO (State)" },
+      { "name": "North Chennai Thermal Power Station (NCTPS Stage I)", "capacity": "630 MW", "details": "Units: 3x210 MW | Thiruvallur | TANGEDCO (State)" },
+      { "name": "North Chennai Thermal Power Station (NCTPS Stage II)", "capacity": "1,200 MW", "details": "Units: 2x600 MW | Thiruvallur | TANGEDCO (State)" },
+      { "name": "Tuticorin Thermal Power Station (TTPS)", "capacity": "1,050 MW", "details": "Units: 5x210 MW | Thoothukudi | TANGEDCO (State)" },
+      { "name": "NLC Thermal Power Station I (TPS I)", "capacity": "600 MW", "details": "Lignite | Cuddalore | NLCIL (Central)" },
+      { "name": "NLC Thermal Power Station I Expansion", "capacity": "420 MW", "details": "Lignite | Cuddalore | NLCIL (Central)" },
+      { "name": "NLC Thermal Power Station II", "capacity": "1,470 MW", "details": "Lignite | Cuddalore | NLCIL (Central)" },
+      { "name": "NLC Thermal Power Station II Expansion", "capacity": "500 MW", "details": "Lignite | Cuddalore | NLCIL (Central)" },
+      { "name": "Neyveli New Thermal Power Project (NNTPP)", "capacity": "1,000 MW", "details": "Lignite | Cuddalore | NLCIL (Central)" },
+      { "name": "NTECL Vallur Thermal Power Station", "capacity": "1,500 MW", "details": "Units: 3x500 MW | Thiruvallur | NTPC-TANGEDCO JV" },
+      { "name": "NTPL Tuticorin Thermal Power Project", "capacity": "1,000 MW", "details": "Units: 2x500 MW | Thoothukudi | NLC-TANGEDCO JV" },
+      { "name": "Coastal Energen Thermal Plant", "capacity": "1,200 MW", "details": "Units: 2x600 MW | Thoothukudi | Private IPP" },
+      { "name": "IL&FS Tamil Nadu Power Company (ITPCL)", "capacity": "1,200 MW", "details": "Units: 2x600 MW | Cuddalore | Private IPP" },
+      { "name": "ST-CMS Electric Company Thermal Plant", "capacity": "250 MW", "details": "Lignite | Cuddalore | Private IPP" },
+      { "name": "Central Sector Grid Allocations", "capacity": "890 MW", "details": "Ramagundam, Simhadri, Talcher Import Share" }
+    ]
+  },
+  "NUCLEAR": {
+    "title": " NUCLEAR POWER STATIONS",
+    "totalCapacity": "2,440 MW",
+    "plants": [
+      { "name": "Kudankulam Nuclear Power Plant Unit 1 (KKNPP 1)", "capacity": "1,000 MW", "details": "Type: VVER-1000 PWWR | Tirunelveli | NPCIL (Central)" },
+      { "name": "Kudankulam Nuclear Power Plant Unit 2 (KKNPP 2)", "capacity": "1,000 MW", "details": "Type: VVER-1000 PWWR | Tirunelveli | NPCIL (Central)" },
+      { "name": "Madras Atomic Power Station Unit 1 (MAPS 1)", "capacity": "220 MW", "details": "Type: PHWR | Kalpakkam (Chengalpattu) | NPCIL (Central)" },
+      { "name": "Madras Atomic Power Station Unit 2 (MAPS 2)", "capacity": "220 MW", "details": "Type: PHWR | Kalpakkam (Chengalpattu) | NPCIL (Central)" },
+      { "name": "Prototype Fast Breeder Reactor (PFBR)", "capacity": "500 MW", "details": "Type: Fast Breeder | Kalpakkam | BHAVINI (Under Comm.)" }
+    ]
+  },
+  "RENEWABLE": {
+    "title": " WIND, SOLAR & BIOMASS RENEWABLE GRID",
+    "totalCapacity": "15,620+ MW",
+    "plants": [
+      { "name": "Aralvaimozhi Pass Wind Cluster", "capacity": "2,400 MW", "details": "Muppandal, Pannakudi Belts | Kanyakumari & Tirunelveli" },
+      { "name": "Shencottah Pass Wind Cluster", "capacity": "1,350 MW", "details": "Kayathar, Ayikudi Passages | Tenkasi & Tirunelveli" },
+      { "name": "Palghat Pass Wind Cluster", "capacity": "3,600 MW", "details": "Udumalpet, Dharapuram Corridor | Coimbatore & Tiruppur" },
+      { "name": "Kambam Pass Wind Cluster", "capacity": "1,250 MW", "details": "Theni & Andipatti Wind Belts | Theni & Dindigul" },
+      { "name": "Scattered Wind Farms", "capacity": "1,200 MW", "details": "Karur, Radhapuram & Tuticorin Wind Hubs" },
+      { "name": "Kamuthi Ultra Mega Solar Park", "capacity": "648 MW", "details": "Adani Solar Park | Ramanathapuram (2,500 Acres)" },
+      { "name": "NLC India Solar Parks", "capacity": "500 MW", "details": "Ground Mounted Solar | Cuddalore & Virudhunagar" },
+      { "name": "TANGEDCO Grid Solar Parks", "capacity": "500 MW", "details": "State Owned Solar | Tiruvarur & Ramanathapuram" },
+      { "name": "Distributed Ground Solar IPPs", "capacity": "2,400 MW", "details": "Virudhunagar, Tuticorin, Karur & Dindigul" },
+      { "name": "Grid-Tied Rooftop Solar PV", "capacity": "752 MW", "details": "Statewide Residential & Industrial Roofs" },
+      { "name": "Sugar Mill Bagasse Co-generation", "capacity": "710 MW", "details": "38 Co-operative & Private Sugar Mills Across TN" },
+      { "name": "Biomass Gasifier & Combustion Plants", "capacity": "230 MW", "details": "29 Plants | Pudukkottai, Sivaganga, Ramanathapuram" },
+      { "name": "Waste-to-Energy & Industrial Biogas", "capacity": "80 MW", "details": "12 Plants | Chennai, Coimbatore, Trichy, Namakkal" }
+    ]
+  },
+  "GAS": {
+    "title": " GAS TURBINE & DIESEL POWER STATIONS",
+    "totalCapacity": "1,027.70 MW",
+    "plants": [
+      { "name": "Valuthur Gas Turbine Power Station (Stage I)", "capacity": "95 MW", "details": "Fuel: Natural Gas (ONGC) | Ramanathapuram | TANGEDCO" },
+      { "name": "Valuthur Gas Turbine Power Station (Stage II)", "capacity": "92.20 MW", "details": "Fuel: Natural Gas (ONGC) | Ramanathapuram | TANGEDCO" },
+      { "name": "Basin Bridge Gas Turbine Power Station", "capacity": "120 MW", "details": "Fuel: Naphtha / Gas | Chennai | TANGEDCO" },
+      { "name": "Thirumakottai Gas Power Station", "capacity": "108.88 MW", "details": "Fuel: Natural Gas | Tiruvarur | TANGEDCO" },
+      { "name": "Kuttalam Gas Turbine Power Station", "capacity": "101.71 MW", "details": "Fuel: Natural Gas | Mayiladuthurai | TANGEDCO" },
+      { "name": "Aban Power Company (PPN Power)", "capacity": "330.50 MW", "details": "Fuel: Natural Gas / Naphtha | Mayiladuthurai | Private IPP" },
+      { "name": "Pennington Power (Samalpatti Project)", "capacity": "105.60 MW", "details": "Fuel: LSHS Heavy Fuel | Krishnagiri | Standby Asset" },
+      { "name": "GMR Vasavi Power Plant", "capacity": "106.35 MW", "details": "Fuel: LSHS / Heavy Oil | Chennai | Standby Asset" }
+    ]
+  }
+}

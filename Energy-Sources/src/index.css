@@ -1,0 +1,6 @@
+/* Puraane monitor ke corners aur borders ko ekdum clean aur full screen karne ke liye */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
