@@ -10,6 +10,16 @@ export default function App() {
   const isWelcome = activeSector === "WELCOME";
   const isHydro = activeSector === "HYDRO";
 
+  // Sector Mapper Helper
+  const sectorMapping = {
+    1: "WELCOME",
+    2: "THERMAL",
+    3: "HYDRO",
+    4: "NUCLEAR",
+    5: "RENEWABLE",
+    6: "GAS",
+  };
+
   // Simple Clean Web Serial Connect Function
   const connectArduino = async () => {
     try {
@@ -39,17 +49,10 @@ export default function App() {
             const cleanLine = line.trim();
             if (cleanLine.startsWith("SW:")) {
               const switchNum = parseInt(cleanLine.split(":")[1]);
-
-              const sectorMapping = {
-                1: "WELCOME",
-                2: "THERMAL",
-                3: "HYDRO",
-                4: "NUCLEAR",
-                5: "RENEWABLE",
-                6: "GAS",
-              };
-
               const targetSector = sectorMapping[switchNum];
+
+              // 🔴 INSTANT OVERRIDE FIX:
+              // Chahe pehle se koi bhi switch ON/OFF ho, latest pressed switch ka data instant render hoga
               if (targetSector) {
                 setActiveSector(targetSector);
               }
@@ -63,39 +66,41 @@ export default function App() {
     }
   };
 
-  // --- LOCAL SOCKET FALLBACK ---
+  // --- LOCAL SOCKET / WEBSOCKET FALLBACK ---
   useEffect(() => {
-    const socket = io("http://localhost:5000", { autoConnect: false });
+    // Socket connection setup
+    const socket = io("http://localhost:5000", { autoConnect: true });
 
-    if (!isConnected) {
-      socket.connect();
-      socket.on("sector-switch", (data) => {
-        if (data && data.status === 1) {
-          const sectorMapping = {
-            1: "WELCOME",
-            2: "THERMAL",
-            3: "HYDRO",
-            4: "NUCLEAR",
-            5: "RENEWABLE",
-            6: "GAS",
-          };
+    const handleSocketData = (data) => {
+      if (!data) return;
 
-          const targetSector = sectorMapping[data.switch];
-          if (
-            targetSector &&
-            (targetSector === "WELCOME" || powerData[targetSector])
-          ) {
-            setActiveSector(targetSector);
-          }
-        }
-      });
-    }
+      // Handle both formats: Direct Switch Object or Raw Buffer/String
+      let switchNum = null;
+
+      if (typeof data === "object" && data.switch) {
+        switchNum = data.switch;
+      } else if (typeof data === "string" && data.includes("SW:")) {
+        switchNum = parseInt(data.split(":")[1]);
+      }
+
+      const targetSector = sectorMapping[switchNum];
+
+      // 🔴 INSTANT OVERRIDE FIX:
+      // Direct set active sector without checking old state locks
+      if (targetSector) {
+        setActiveSector(targetSector);
+      }
+    };
+
+    socket.on("sector-switch", handleSocketData);
+    socket.on("message", handleSocketData); // Fallback for raw serial ws streaming
 
     return () => {
-      socket.off("sector-switch");
+      socket.off("sector-switch", handleSocketData);
+      socket.off("message", handleSocketData);
       socket.disconnect();
     };
-  }, [isConnected]);
+  }, []);
 
   // Hydro Plants Duplication
   const rawPlants = powerData[activeSector]?.plants || [];
@@ -253,7 +258,7 @@ export default function App() {
               <div
                 style={{
                   position: "absolute",
-                  top: "490px",
+                  top: "530px",
                   right: "0",
                   display: "flex",
                   flexDirection: "column",
@@ -279,7 +284,7 @@ export default function App() {
                   R.S Ravi
                 </span>
                 <span style={{ color: "#1e293b", fontWeight: "600" }}>
-                  Rahul
+                  Rahul S
                 </span>
               </div>
             </motion.div>
