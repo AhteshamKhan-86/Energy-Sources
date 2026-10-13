@@ -355,7 +355,7 @@ export default function App() {
                     margin: "0",
                     lineHeight: "1",
                     color: "#ffffff",
-                    WebkitTextFillColor: "#ffffff",
+                    WebkitTextFillColor: "#15b8e5",
                     textShadow:
                       "0 4px 20px rgba(245, 247, 248, 0.4), 0 0 40px rgba(15, 23, 42, 0.25)",
                     filter: "drop-shadow(0 8px 16px rgba(15, 23, 42, 0.2))",
